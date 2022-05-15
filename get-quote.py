@@ -7,7 +7,7 @@ def logic():
   f.close()
   last = 13
   rnd = random.randint(0,last)
-  print(quotes[rnd]+"\n"+ quotes[rnd-1])
+  print(quotes[rnd]+ "\n" + quotes[rnd-1],end="")
 
 if __name__ == "__main__":
   logic()
