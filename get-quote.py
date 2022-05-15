@@ -1,7 +1,9 @@
 import random
 
 def logic():
-  print("Keep it logically awesome.")
+  d = open("quotes.txt","a")
+  d.write("Always have bail money.")
+
   f = open("quotes.txt")
   quotes = f.readlines()
   f.close()
